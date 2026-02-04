@@ -14,7 +14,7 @@ spec:
     spec:
       containers: 
       - name: tomcat
-        image: sjinj/tomcat2:latest
+        image: sjinj/mytomcat2:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
